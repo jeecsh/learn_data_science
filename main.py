@@ -1,9 +1,13 @@
-def fbonatch(N):
-    sequence = []
-    a, b = 0, 1
-    for i in range(N):
-        c = a + b
-        sequence.append(c)
-        a = b
-        b = c
-    return sequence
+class person :
+    def __init__(self,fname,laname):
+       self.fname=fname
+       self.laname=laname
+    def prinname(self):
+        print(self.fname,self.laname)    
+        
+        
+        
+        
+x=person("mohamed","yousif")
+x.prinname()    
+
